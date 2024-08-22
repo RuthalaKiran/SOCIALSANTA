@@ -1,8 +1,9 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { RiTwitterXFill } from "react-icons/ri";
+import { FaPinterest } from "react-icons/fa";
 import { AiOutlineYoutube } from "react-icons/ai";
+import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -12,10 +13,11 @@ const Footer = () => {
         <p>+91 9137559755</p>
       </div>
       <div className="right flex gap-5 text-[25px] text-gray-300">
-        <FaInstagram className="cursor-pointer hover:scale-110 hover:text-gray-100 duration-200" />
-        <FaLinkedinIn className="cursor-pointer hover:scale-110 hover:text-gray-100 duration-200" />
-        <RiTwitterXFill className="cursor-pointer hover:scale-110 hover:text-gray-100 duration-200" />
-        <AiOutlineYoutube className="cursor-pointer hover:scale-110 hover:text-gray-100 duration-200" />
+       <a href="https://www.instagram.com/agencysocialsanta/" target="_blank">  <FaInstagram className="cursor-pointer hover:scale-110 hover:text-gray-100 duration-200" /></a>
+      <a href="https://www.linkedin.com/company/social-santa-syc/posts/?feedView=all" target="_blank">  <FaLinkedinIn className="cursor-pointer hover:scale-110 hover:text-gray-100 duration-200" /></a>
+      <a href="https://www.pinterest.com/agencysocialsanta/" target="_blank">  <FaPinterest className="cursor-pointer hover:scale-110 hover:text-gray-100 duration-200" /></a>
+       <a href=""> <AiOutlineYoutube className="cursor-pointer hover:scale-110 hover:text-gray-100 duration-200" /></a>
+       <a href=""> <FaFacebook className="cursor-pointer hover:scale-110 hover:text-gray-100 duration-200" /></a>
       </div>
     </footer>
   );

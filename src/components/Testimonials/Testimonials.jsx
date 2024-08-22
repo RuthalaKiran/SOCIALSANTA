@@ -125,8 +125,8 @@ const Testimonials = () => {
                 <div className="stars">{renderStars(item.rating)}</div>
                 <div className="relative comment ">
                   <RiDoubleQuotesL className="absolute top-[-20px] left-[-60px] text-5xl  text-gray-400" />
-                  <span className="text-[#607D8B] ">{item.comment}</span>
-                  <RiDoubleQuotesR className="absolute bottom-0 right-[-5px] text-5xl  text-gray-400" />
+                  <span className="text-[#607D8B] text-lg ">{item.comment}</span>
+                  <RiDoubleQuotesR className="absolute bottom-0 right-[-30px] text-5xl  text-gray-400" />
                 </div>
                 <div className="flex gap-20 items-center">
                   <div onClick={handlePrevClick} className="left-arrow prev">

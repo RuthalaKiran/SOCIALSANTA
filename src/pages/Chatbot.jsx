@@ -45,7 +45,7 @@ const Chatbot = () => {
   const [userEmail, setUserEmail] = useState("");
   const [BussinessDetails, setBussinessDetails] = useState("");
   const [UserRoleInBussiness, setUserRoleInBussiness] = useState("");
-  const [modelOpen, setmodelOpen] = useState(true);
+  const [modelOpen, setmodelOpen] = useState(false);
 
   console.log({
     username: userName,

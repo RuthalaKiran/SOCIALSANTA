@@ -1,0 +1,28 @@
+.dot {
+
+  background-color: white;
+}
+.dot.dot-active { 
+  animation: bounce 1.3s infinite alternate;
+}
+
+/* .dot.dot-incolor {
+  background-color: #8000ff;
+  filter: ;
+} */
+
+@keyframes bounce {
+  20% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-20px);
+  }
+}
+
+.dot:nth-child(3) {
+  animation-delay: 0.8s;
+}
+.dot:nth-child(2) {
+  animation-delay: 0.4s;
+}

@@ -1,0 +1,12 @@
+.middle {
+  animation: scroll-up 10s linear infinite;
+}
+
+@keyframes scroll-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-60%);
+  }
+}

@@ -10,6 +10,7 @@ import { FaCaretLeft } from "react-icons/fa";
 import { FaCaretRight } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
+import { testimonialdata } from "../../constants";
 
 const Testimonials = () => {
   const swiperRef = useRef(null);
@@ -37,41 +38,39 @@ const Testimonials = () => {
       setactiveIndex(swiperRef.current.swiper.activeIndex);
     }
   };
-
-  const testimonialdata = [
-    {
-      id: 1,
-      name: "Savannah Nguyen",
-      profession: "YouTube Influencer",
-      comment:
-        "As a satisfied customer of [SaaS Provider], I want to share my positive experience with others. Their software as a service platform has greatly improved the efficiency and productivity of our business operations. The cloud-based solution is user-friendly and regularly updated to stay ahead of the technology curve.",
-      rating: 5,
-    },
-    {
-      id: 2,
-      name: "Siddarth",
-      profession: "ui/ux ",
-      comment:
-        "As a satisfied customer of [SaaS Provider], I want to share my positive experience with others. Their software as a service platform has greatly improved the efficiency and productivity of our business operations. The cloud-based solution is user-friendly and regularly updated to stay ahead of the technology curve.",
-      rating: 4.5,
-    },
-    {
-      id: 3,
-      name: "Savannah Nguyen",
-      profession: "web devloper",
-      comment:
-        "As a satisfied customer of [SaaS Provider], I want to share my positive experience with others. Their software as a service platform has greatly improved the efficiency and productivity of our business operations. The cloud-based solution is user-friendly and regularly updated to stay ahead of the technology curve.",
-      rating: 4,
-    },
-    {
-      id: 4,
-      name: "kiran",
-      profession: "web devloper",
-      comment:
-        "As a satisfied customer of [SaaS Provider], I want to share my positive experience with others. Their software as a service platform has greatly improved the efficiency and productivity of our business operations. The cloud-based solution is user-friendly and regularly updated to stay ahead of the technology curve.",
-      rating: 2.5,
-    },
-  ];
+  //   {
+  //     id: 1,
+  //     name: "Savannah Nguyen",
+  //     profession: "YouTube Influencer",
+  //     comment:
+  //       "As a satisfied customer of [SaaS Provider], I want to share my positive experience with others. Their software as a service platform has greatly improved the efficiency and productivity of our business operations. The cloud-based solution is user-friendly and regularly updated to stay ahead of the technology curve.",
+  //     rating: 5,
+  //   },
+  //   {
+  //     id: 2,
+  //     name: "Siddarth",
+  //     profession: "ui/ux ",
+  //     comment:
+  //       "As a satisfied customer of [SaaS Provider], I want to share my positive experience with others. Their software as a service platform has greatly improved the efficiency and productivity of our business operations. The cloud-based solution is user-friendly and regularly updated to stay ahead of the technology curve.",
+  //     rating: 4.5,
+  //   },
+  //   {
+  //     id: 3,
+  //     name: "Savannah Nguyen",
+  //     profession: "web devloper",
+  //     comment:
+  //       "As a satisfied customer of [SaaS Provider], I want to share my positive experience with others. Their software as a service platform has greatly improved the efficiency and productivity of our business operations. The cloud-based solution is user-friendly and regularly updated to stay ahead of the technology curve.",
+  //     rating: 4,
+  //   },
+  //   {
+  //     id: 4,
+  //     name: "kiran",
+  //     profession: "web devloper",
+  //     comment:
+  //       "As a satisfied customer of [SaaS Provider], I want to share my positive experience with others. Their software as a service platform has greatly improved the efficiency and productivity of our business operations. The cloud-based solution is user-friendly and regularly updated to stay ahead of the technology curve.",
+  //     rating: 2.5,
+  //   },
+  // ];
 
   const renderStars = (rating) => {
     const fullStars = Math.floor(rating);
